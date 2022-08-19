@@ -22,20 +22,20 @@ export const About = () => {
             <article className="about__card">
               <h2>Education :</h2>
               
-              <h4>Bachelors of Engneering (B.E) </h4>
+              <h4>Bachelors of Engineering (B.E) </h4>
               <small>- Pune institute of computer technology,Pune (2020 - 2024)</small>
               <h4>Higher Secondary Certificate (H.S.C)</h4>
               <small>- Nutan Maratha Collage , Jalgaon (2018 - 2020)</small>
               <h4>Secondary School Certificate (S.S.C)</h4>
               <small>- K.K.Wagh Vidyabhavan B.Nagar , Niphad (2013 - 2018)</small>
 
-              <h2>Intrests</h2>
+              <h2>Interest</h2>
               <h4>Coding</h4>
               <small>- Developing softwares and Competative coding</small>
               <h4>Watching</h4>
               <small>- Finance related contents on You-Tube , Movies</small>
               <h4>Reading</h4>
-              <small>- Inspiraitonal books, Finance related books</small>
+              <small>- Inspirational books, Finance related books</small>
 
               
               

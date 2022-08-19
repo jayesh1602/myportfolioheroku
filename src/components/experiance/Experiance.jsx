@@ -54,14 +54,14 @@ export const Experiance = () => {
               <img src={Bootstrap} className="experiance__logo"></img>
 
               <h4>Bootstrap</h4>
-              <small className='text-light'>Experianced</small>
+              <small className='text-light'>Intermediate</small>
             </article>
             <article className="experiance__details">
               {/* <BsPatchCheckFill/> */}
               <img src={Reactimg} className="experiance__logo"></img>
 
               <h4>ReactJS</h4>
-              <small className='text-light'>Experianced</small>
+              <small className='text-light'>Intermediate</small>
             </article>
           </div>
 
@@ -74,21 +74,21 @@ export const Experiance = () => {
               <img src={Node} className="experiance__logo"></img>
 
               <h4>NodeJS</h4>
-              <small className='text-light'>Experianced</small>
+              <small className='text-light'>Intermediate</small>
             </article>
             <article className="experiance__details">
               {/* <BsPatchCheckFill/> */}
               <img src={express} className="experiance__logo"></img>
 
               <h4>Express</h4>
-              <small className='text-light'>Experianced</small>
+              <small className='text-light'>Intermediate</small>
             </article>
             <article className="experiance__details">
               {/* <BsPatchCheckFill/> */}
               <img src={Mongo} className="experiance__logo"></img>
 
               <h4>MongoDB</h4>
-              <small className='text-light'>Experianced</small>
+              <small className='text-light'>Intermediate</small>
             </article>
           </div>
 
@@ -108,14 +108,14 @@ export const Experiance = () => {
               <img src={Javaimg} className="experiance__logo"></img>
 
               <h4>JAVA</h4>
-              <small className='text-light'>Experianced</small>
+              <small className='text-light'>Basic</small>
             </article>
             <article className="experiance__details">
               {/* <BsPatchCheckFill/> */}
               <img src={Pythone} className="experiance__logo"></img>
 
-              <h4>Pythone</h4>
-              <small className='text-light'>Experianced</small>
+              <h4>Python</h4>
+              <small className='text-light'>Basic</small>
             </article>
           </div>
 
