@@ -17,7 +17,7 @@ export const Contact = () => {
   return (
     <section id="contact">
       <h5>Get in Touch</h5>
-      <h2>Contact us</h2>
+      <h2>Contact Me</h2>
       <div className="container container__contact">
         <div className="contact__options">
           <article className="contact__option">
@@ -31,8 +31,8 @@ export const Contact = () => {
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icons'/>
             <h4>WhatsApp</h4>
-            <h5>Mobile No. +91-9637585135</h5>
-            <a href='https://api.whatsapp.com/send?phone+919637585135' target="_blank">Send a message</a>
+            <h5>Mobile No. +91-96********</h5>
+            {/* <a href='mailto:jayeshspatil1602@gmail.com' target="_blank">Send a message</a> */}
 
           </article>
         </div>

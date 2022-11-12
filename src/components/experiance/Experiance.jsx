@@ -14,6 +14,7 @@ import Javaimg from '../../assets/java.png'
 import Pythone from '../../assets/pythone.png'
 import express from '../../assets/express.png'
 import Cpp from '../../assets/cpp.png'
+import NextJS from '../../assets/nextjs.png'
 
 
 
@@ -61,6 +62,13 @@ export const Experiance = () => {
               <img src={Reactimg} className="experiance__logo"></img>
 
               <h4>ReactJS</h4>
+              <small className='text-light'>Intermediate</small>
+            </article>
+            <article className="experiance__details">
+              {/* <BsPatchCheckFill/> */}
+              <img src={NextJS} className="experiance__logo"></img>
+
+              <h4>NextJS</h4>
               <small className='text-light'>Intermediate</small>
             </article>
           </div>

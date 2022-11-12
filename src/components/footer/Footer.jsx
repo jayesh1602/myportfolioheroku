@@ -14,13 +14,13 @@ export const Footer = () => {
         <li ><a href='#about'>About</a></li>
         <li ><a href='#experiance'>Skills</a></li>
         <li ><a href='#portfolio'>Portfolio</a></li>
-        <li ><a href='#testimonial'>Testimonial</a></li>
+        {/* <li ><a href='#testimonial'>Testimonial</a></li> */}
         <li ><a href='#contact'>Contact</a></li>
       </ul>
       <div className="footer__social">
-        <a href='https://instagram.com'><BsInstagram/></a>
-        <a href='https://linkedin.com'><BsLinkedin/></a>
-        <a href='https://github.com'><BsGithub/></a>
+        <a href='https://www.instagram.com/jayeshspatil1602/' target="_blank" rel="noopener noreferrer"><BsInstagram/></a>
+        <a href='https://www.linkedin.com/in/jayesh-s-patil-89b3871bb/' target="_blank" rel="noopener noreferrer"><BsLinkedin/></a>
+        <a href='https://github.com/jayesh1602/' target="_blank" rel="noopener noreferrer"><BsGithub/></a>
 
       </div>
       <div className="footer__copyright">
