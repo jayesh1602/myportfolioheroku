@@ -19,7 +19,6 @@ import NextJS from '../../assets/nextjs.png'
 
 
 
-
 export const Experiance = () => {
   return (
     <section id="experiance">
