@@ -17,7 +17,7 @@ export const Header = () => {
         <CTA />
         <HeaderSocial />
         <div className="me">
-          <img src={Boy}></img>
+          <img src={Boy} className="vert-move"></img>
         </div>
 
         <a href="#contact" className="scroll__down">

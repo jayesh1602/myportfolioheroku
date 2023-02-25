@@ -81,7 +81,7 @@ header {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   header {
     height: 85vh;
   }
@@ -95,16 +95,39 @@ header {
     display: none;
   }
   .me {
-    width: 32rem;
-    height: 26rem;
-    margin-top: 5rem;
+    /* width: 32rem;
+    height: 26rem; */
+    /* margin-top: 5rem; */
     left: calc(2% - 19.1rem);
     overflow: hidden;
+    width: 30.5rem;
   }
 }
 
 @media screen and (max-width: 380px) {
   header {
     height: 110vh;
+  }
+}
+
+img.vert-move {
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+  margin-top: 1rem;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
   }
 }

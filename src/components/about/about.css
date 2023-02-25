@@ -1,62 +1,90 @@
-.about__container{
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+.about__container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
 }
 
-.about__me{
-    width: 80%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    border: 1px solid ;
-    display: grid;
-    place-items: center;
+.about__me {
+  width: 80%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  border: 1px solid;
+  display: grid;
+  place-items: center;
 
-    -webkit-box-shadow: 0px 1.2px 5px 4px rgba(149,149,194,1);
-    -moz-box-shadow: 0px 1.2px 5px 4px rgba(149,149,194,1);
-    box-shadow: 0px 1.2px 5px 4px rgba(149,149,194,1);
+  -webkit-box-shadow: 0px 1.2px 5px 4px rgba(149, 149, 194, 1);
+  -moz-box-shadow: 0px 1.2px 5px 4px rgba(149, 149, 194, 1);
+  box-shadow: 0px 1.2px 5px 4px rgba(149, 149, 194, 1);
 }
 
-.about__me-image{
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+.About-img {
+  width: fit-content;
+  height: fit-content;
+}
+
+.About-img {
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+.about__me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+  width: 100%;
+}
+
+.about__me-image:hover {
+  transform: rotate(0deg);
+  background: var(--color-primary);
+}
+
+@media screen and (max-width: 1224px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about__me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .about__card {
     width: 100%;
+    text-align: center;
+  }
 }
 
-.about__me-image:hover{
-    transform: rotate(0deg);
-    background:var(--color-primary);
+@media screen and (max-width: 600px) {
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+  .About-img {
+    width: 80%;
+    margin: 0 2rem;
+  }
 }
 
-@media screen and (max-width:1224px){
-    .about__container{
-        grid-template-columns: 1fr;
-        gap: 0;
-        
-    }
-    .about__me{
-        width: 50%;
-        margin: 2rem auto 4rem;
-    }
-    
-    .about__card{
-        width: 100%;
-        text-align: center;
-        
-    }
-}
-
-@media screen and (max-width:600px){
-    .about__me{
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
-}
-
-@media screen and (max-width:380px){
-    #about{
-        height: 120vh;
-    }
+@media screen and (max-width: 380px) {
+  #about {
+    height: 120vh;
+  }
 }
