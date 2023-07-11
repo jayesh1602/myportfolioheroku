@@ -40,9 +40,8 @@ export const About = () => {
               <h2>Interest</h2>
               <h4>Coding</h4>
               <small>- Developing softwares and Competative coding</small>
-              <h4>Watching</h4>
+              <h4>Watching & Reading</h4>
               <small>- Finance related contents on You-Tube , Movies</small>
-              <h4>Reading</h4>
               <small>- Inspirational books, Finance related books</small>
             </article>
           </div>

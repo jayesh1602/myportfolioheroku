@@ -6,6 +6,7 @@ import img3 from "../../assets/portfolio3.jpg";
 import health from "../../assets/health.png";
 import Student_DB from "../../assets/Student_management.png";
 import PortfolioIMG from "../../assets/portfolio.png";
+import BookProject from "../../assets/book_wise_project.png";
 
 export const Portfolio = () => {
   return (
@@ -49,28 +50,28 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={Student_DB} alt="title 1" />
+            <img src={BookProject} alt="title 1" />
           </div>
           <h3>
-            <span>Title : </span>Student Database Management System
+            <span>Title : </span>BookWise - Track Record of Books
           </h3>
           <hr />
           <p>
             <ul>
-              <li>This project is for Managing a student database</li>
-              <li>Only admins have access to add and delete the student</li>
+              <li>This project is to track the record of books read by user</li>
+              <li>Implementation of user management</li>
             </ul>
           </p>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/jayesh1602/mini_project_DBMS"
+              href="https://github.com/jayesh1602/Book_store"
               target="_blank"
               className="btn btn-port"
             >
               Github
             </a>
             <a
-              href="https://student-management-sytem-dbms.herokuapp.com/"
+              href="https://book-store-kull.onrender.com/"
               target="_blank"
               className="btn btn-primary btn-port"
             >
@@ -85,7 +86,9 @@ export const Portfolio = () => {
           <h3>
             <span>Title : </span>This is My portfolio website Project
           </h3>
-          <p>Portfolio website project to show-case my skills, made by ReactJS</p>
+          <p>
+            Portfolio website project to show-case my skills, made by ReactJS
+          </p>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/jayesh1602/myportfolioheroku"
